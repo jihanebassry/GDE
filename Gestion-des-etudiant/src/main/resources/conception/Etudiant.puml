@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/class-diagram
+enum Gender
+class Etudiant
+
+Etudiant : id
+Etudiant : age
+Etudiant : cin
+Etudiant : email
+Etudiant : nom
+Etudiant : prenom
+Gender : sexe
+Etudiant : telephone
+
+
+@enduml
